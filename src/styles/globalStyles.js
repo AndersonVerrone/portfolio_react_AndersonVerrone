@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --color-button: linear-gradient( to bottom, #3d973d 0%, #6faf72 9%, #3d973d 18%, #3d973d 92%, #666 100%);
+        --color-taskbar: linear-gradient( to bottom, #245edb 0%, #0c8dea 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
 
         --font-main: 'Arial', sans-serif;
 

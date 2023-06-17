@@ -7,4 +7,5 @@ export const StyledConteinerDesktop = styled.div`
     background-image: var(--background-main);
     background-position: center;
     background-size: cover;
+    position: relative;
 `
