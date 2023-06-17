@@ -1,6 +1,7 @@
  import { GlobalStyle } from './styles/globalStyles'
 import { DesktopContainer } from './components/DesktopContainer'
 import { TaskBarContainer } from './components/TaskBarContainer'
+import { StartButton } from './components/StartButton'
 
 function App() {
 
@@ -8,9 +9,9 @@ function App() {
     <>
     <GlobalStyle />
     <DesktopContainer>
-      
-      <TaskBarContainer>
 
+      <TaskBarContainer>
+        <StartButton />
       </TaskBarContainer>
     </DesktopContainer>
     </>

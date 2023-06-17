@@ -11,7 +11,9 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --color-button: linear-gradient( to bottom, #3d973d 0%, #6faf72 9%, #3d973d 18%, #3d973d 92%, #666 100%);
+        --color-button-hover: linear-gradient( to bottom, #3d973d 0%, #6faf72 9%, #3d973d 18%, #37d437 92%, #666 100%);
         --color-taskbar: linear-gradient( to bottom, #245edb 0%, #0c8dea 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+        --color-white: #FFFFFF;
 
         --font-main: 'Arial', sans-serif;
 
@@ -21,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         max-width: 100vw;
         max-height: 100vh;
-        font-family: var(--font-main);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
 `
