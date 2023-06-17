@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import { GlobalStyle } from './styles/globalStyles'
+ import { GlobalStyle } from './styles/globalStyles'
+import { DesktopContainer } from './components/DesktopContainer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <GlobalStyle />
+    <DesktopContainer>
+      
+    </DesktopContainer>
     </>
   )
 }
